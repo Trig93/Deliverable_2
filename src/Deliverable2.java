@@ -5,7 +5,7 @@ public class Deliverable2 {
 	public static void main(String[] args) {
 		Scanner userInput = new Scanner(System.in);
 		
-		String newInput = "java";
+		String newInput = userInput.next();
 		String upperInput = newInput.toUpperCase();
 		String newMessage = "";
 		int nameLength = upperInput.length();
